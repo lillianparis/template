@@ -2,9 +2,15 @@
 
 .typing {
   font-family: "Wendy One", sans-serif;
-  font-size: 40px;
+  font-size: 45px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+input {
+    font-family: "Wendy One", sans-serif;
+    font-size: 35px;
+    width: 475px;
 }
