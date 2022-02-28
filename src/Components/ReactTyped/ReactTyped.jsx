@@ -8,11 +8,6 @@ class ReactTyped extends Component {
         return (
             <>
             <div class="typing">
-                {/* <Grid 
-                container
-                justify="center"
-                alignItems="center"
-                /> */}
                 <Typed
                     strings={['Hello, My name is _____']}
                     typeSpeed={40}
