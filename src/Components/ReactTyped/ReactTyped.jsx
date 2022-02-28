@@ -1,11 +1,18 @@
 import React,{ Component } from 'react';
 // import { render } from 'react-dom';
 import Typed from 'react-typed';
+import "../ReactTyped/style.css";
  
 class ReactTyped extends Component {
     render() {
         return (
-            <div>
+            <>
+            <div class="typing">
+                {/* <Grid 
+                container
+                justify="center"
+                alignItems="center"
+                /> */}
                 <Typed
                     strings={['Hello, My name is _____']}
                     typeSpeed={40}
@@ -24,6 +31,7 @@ class ReactTyped extends Component {
                     <input type="text"/>
                 </Typed>
             </div>
+            </>
         );
     }
 }

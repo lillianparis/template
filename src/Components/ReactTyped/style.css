@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=League+Gothic&family=Wendy+One&display=swap");
+
+.typing {
+  font-family: "Wendy One", sans-serif;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
